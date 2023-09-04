@@ -50,7 +50,7 @@ namespace LRU
                 UpdateCachePriority(key, value);
                 return value;
             }
-            return -1;
+            return null;
         }
 
         public void Put(int key, dynamic value)
